@@ -1,5 +1,4 @@
 import "@/css/globals.css";
-import { NextIntlClientProvider, useMessages } from "next-intl";
 
 export default function RootLayout({
   children,
@@ -8,7 +7,6 @@ export default function RootLayout({
   children: React.ReactNode;
   params: { locale: string };
 }): JSX.Element {
-  const messages = useMessages();
 
   return (
     <html lang={params.locale}>
@@ -18,7 +16,6 @@ export default function RootLayout({
         <link rel="icon" href="assets/images/favicon.ico" />
       </head>
       <body suppressHydrationWarning={true} className='font-primary-normal overflow-x-clip'>
-        <NextIntlClientProvider locale={params.locale} messages={messages}>
 
           <main>
             <div>
@@ -26,7 +23,6 @@ export default function RootLayout({
             </div>
           </main>
 
-        </NextIntlClientProvider>
 
       </body>
 
