@@ -10,8 +10,8 @@ export default function Home(): JSX.Element {
                     Your browser does not support the video tag.
                 </video>
                 <div className="relative z-10 w-full text-center text-white font-primary">
-                    <div className="absolute flex w-full justify-start h-fit p-20">
-                            <Image className="h-40 w-fit rounded-lg" src="/assets/images/logos/logo.jpg" alt="logo" width={1621} height={2013} />
+                    <div className="absolute flex w-full justify-start h-fit md:p-20 0-8 gap-3">
+                        <Image className="h-40 w-fit rounded-lg" src="/assets/images/logos/logo.jpg" alt="logo" width={1621} height={2013} />
 
                         <div className='flex flex-col items-start'>
                             <p className='text-6xl'>Richaa</p>

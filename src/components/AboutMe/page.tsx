@@ -25,7 +25,7 @@ export default function AboutMe(): JSX.Element {
                             icon={<ComputerDesktopIcon className="h-10 w-10 text-red-800" />}
                         />
                         <IconWithText
-                            text="Using sodtwares such as Autodesk Maya, Unreal Engine, After Effects, Adobe Premier Pro"
+                            text="Using softwares such as Autodesk Maya, Unreal Engine, After Effects, Adobe Premier Pro"
                             title="How do I do it ?"
                             icon={<CpuChipIcon className="h-10 w-10 text-red-800" />}
                         />
