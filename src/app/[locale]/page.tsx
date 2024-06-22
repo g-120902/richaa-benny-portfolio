@@ -1,3 +1,8 @@
+import AboutMe from "@/components/AboutMe/page";
+import Footer from "@/components/Footer";
+import Home from "@/components/Home/page";
+import Location from "@/components/Location/page";
+import Portfolio from "@/components/Portfolio/page";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -5,18 +10,16 @@ export const metadata: Metadata = {
   description: "richaa benny portfolio website home page"
 };
 
-/**
- * A React component that renders the Home page.
- * @author Valentin magde <valentinmagde@gmail.com>
- * @since 2023-01-18
- *
- * @returns {JSX.Element} A React component.
- */
-export default function Home(): JSX.Element {
+
+export default function Main(): JSX.Element {
 
   return (
-    <div className="my-8 flex flex-col items-center gap-8">
-
+    <div className="h-screen w-screen">
+      <Home />
+      <AboutMe />
+      <Portfolio />
+      <Location />
+      <Footer />
     </div>
   )
 }

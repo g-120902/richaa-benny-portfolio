@@ -48,12 +48,11 @@ const config: Config = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       fontFamily: {
-        'primary-normal': ['Roboto-Regular', 'sans-serif'],
-        'primary-bold': ['Roboto-Bold', 'sans-serif'],
-        'primary-light': ['Roboto-Light', 'sans-serif'],
+        'primary': ['Monako', 'sans-serif'],
       },
       height: {
         '0.5': '0.1rem',
+        '150': '50rem'
       },
       borderWidth: {
         '0.5': '0.1rem',
